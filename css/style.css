@@ -1,0 +1,108 @@
+/* 
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100; */
+
+html {
+    font-size: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Fredoka", sans-serif;
+    background-color: #FFF8F0;
+}
+
+.hero-section-background {
+    background-color: #FFEEDA; 
+}
+
+.hero-section {
+    background-color: #FFEEDA;
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 2.2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero-title {
+    font-weight: 600;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.hero-line {
+    width: 50%;
+    height: 3px;
+    background-color: #000000;
+    border-radius: 0 20px 20px 0;
+    margin-bottom: 4rem;
+}
+
+.hero-description {
+    margin-bottom: 3rem;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 2%;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    width: 15rem;
+    height: 5rem;
+    border-radius: 2rem;
+}
+
+.hero-our-menu-btn {
+    background-color: #FF8A00;
+}
+
+.hero-book-a-table-btn {
+    background-color: #FFFCF8;
+}
+
+.first-image-hero, .second-image-hero, .third-image-hero {
+    width: 200px;
+    height: auto;
+}
+
+
+.hero-right-side {
+    position: relative;
+    height: 500px;
+}
+
+.first-image-hero {
+    position: absolute;
+    z-index: 1;
+    top: 25rem;
+    width: 300px;
+    left: 50px;
+}
+
+.second-image-hero {
+    position: absolute;
+    z-index: 2;
+    top: 80px;
+    left: 250px;
+}
+
+.third-image-hero {
+    position: absolute;
+    z-index: 3;
+    top: 50px;
+    width: 300px;
+}
