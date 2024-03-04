@@ -10,12 +10,15 @@
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Lato:wght@700&family=Montserrat:wght@500;600;700&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li>
-
-                </li>
+    <header class="header">
+        <a class="logo" href="index.php">sushi<section class="imi">mi</section></a>
+        <nav class="main-mav">
+            <ul class="main-nav-list">
+                <li><a class="main-nav-link hover" href="index.php">Home</a></li>
+                <li><a class="main-nav-link hover" href="#">Menu</a></li>
+                <li><a class="main-nav-link hover" href="#">Book</a></li>
+                <li><a class="main-nav-link hover" href="#">Contact</a></li>
+                <li><a class="main-nav-link hover" href="#">Login</a></li>
             </ul>
         </nav>
     </header>
@@ -24,7 +27,7 @@
             <div class="hero-section">
                 <div class="hero-left-side">
                     <div class="hero-title">
-                        <p>The most unique flavor experience with our fresh sushi that make you taste buds melt!</p>
+                        <p>The most unique flavor experience with our fresh sushi that make you tastebuds melt!</p>
                     </div>
                     <div class="hero-line">
 

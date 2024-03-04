@@ -21,8 +21,51 @@ body {
     background-color: #FFF8F0;
 }
 
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#fff8ef;
+    height: 9.6rem;
+    padding: 0 4.8rem;
+    gap: 2rem;
+}
+ 
+.logo {
+    color:#4C3922;
+    font-size: 3.5rem;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.imi {
+    color: #FF8A00;
+}
+ 
+.main-nav-list {
+    list-style: none;
+    display: flex;
+    gap: 3.2rem;
+}
+ 
+.main-nav-link{
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.hover:hover {
+    color: #FF8A00;
+    transition: all 0.2s ease;
+}
+
 .hero-section-background {
-    background-color: #FFEEDA; 
+    background-color: #FFEEDA;
+    padding: 0 3rem;
 }
 
 .hero-section {
@@ -61,6 +104,7 @@ body {
 .btn {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 15rem;
     height: 5rem;
     border-radius: 2rem;
