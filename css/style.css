@@ -110,6 +110,12 @@ body {
     border-radius: 2rem;
 }
 
+.btn-hover:hover {
+    cursor: pointer;
+    border: solid 3px #4C3922;
+    transition: all 0.01s ease;
+}
+
 .hero-our-menu-btn {
     background-color: #FF8A00;
 }
@@ -149,4 +155,153 @@ body {
     z-index: 3;
     top: 50px;
     width: 300px;
+}
+
+
+
+/* Login */
+
+.log-in-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    font-size: 1.6rem;
+}
+
+
+.login-container {
+    display: flex;
+    flex-direction: row;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+    /* justify-content: center; */
+    max-width: 700px;
+    margin: 0 auto;
+    gap: 2rem;
+    background-color: #FFEEDA;
+    box-shadow: 0 1.5rem 4rem rgba(0,0,0,.5);
+    height: 449.38px;
+}
+
+
+.login {
+    display: flex;
+    justify-content: center;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: row;
+}
+
+/* styling form */
+
+input {
+    /* background-color: FFFCF8; */
+    /* width: 50rem;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box; */
+    border: none;
+    border-bottom: 0.2rem solid black;
+    outline: none;
+    background-color: rgba(79, 71, 71, 0);
+  }
+
+  input:focus {
+    border: 3px solid #555;
+  }
+
+  /* [type=text] */
+
+  .sushi-sandwich {
+    width: 300px; 
+    height: auto; 
+    object-fit: cover;
+    object-position: 25% 25% ; 
+    /* width: 300px;
+    height: auto; */
+  }
+
+  .register_form {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+
+  /* .register_form input [type="Text"],
+  .register_form input [type="Password"] {
+    border: none;
+    border-bottom: 0.2rem solid black;
+    outline: none;
+  } */
+
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+::-webkit-input-placeholder {
+    text-decoration: underline;
+}
+
+
+/* order page */
+
+.order-page-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 2rem;
+}
+
+.item-list {
+    height: 100rem;
+    width: 16.3rem;
+    background-color: #FFEEDA;
+}
+
+.order-page-right-side {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    width: 100rem;
+    margin-right: 5rem;
+}
+
+.hero-section-order-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+    height: 15rem;
+    width: 100%;
+    background-color: #FFEEDA;
+}
+
+.title-order-page {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.order-section {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FFEEDA;
+}
+
+
+.name-sushi, .price-sushi {
+    font-size: 1.8rem;
+    font-weight: 600;
+
+}
+
+.sushi-container {
+    width: 14pc;
+    height: auto;
+    display: flex;
+    flex-direction: column;
 }
