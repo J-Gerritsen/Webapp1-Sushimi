@@ -1,3 +1,6 @@
+<?php
+include 'pages/conn.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,17 +13,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Lato:wght@700&family=Montserrat:wght@500;600;700&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <a class="logo" href="index.php">sushi<section class="imi">mi</section></a>
-        <nav class="main-mav">
-            <ul class="main-nav-list">
-                <li><a class="main-nav-link hover" href="index.php">Home</a></li>
-                <li><a class="main-nav-link hover" href="#">Menu</a></li>
-                <li><a class="main-nav-link hover" href="#">Book</a></li>
-                <li><a class="main-nav-link hover" href="#">Contact</a></li>
-                <li><a class="main-nav-link hover" href="#">Login</a></li>
-            </ul>
-        </nav>
+        <header>
+        <?php
+        include './assets/header.php';
+        ?>
     </header>
     <main>
         <div class="hero-section-background">
@@ -37,10 +33,10 @@
                             best flavor experience you have ever tasted</p>
                     </div>
                     <div class="hero-buttons">
-                        <div class="hero-our-menu-btn btn">
+                        <div class="hero-our-menu-btn btn btn-hover">
                             <p>Our menu</p>
                         </div>
-                        <div class="hero-book-a-table-btn btn">
+                        <div class="hero-book-a-table-btn btn btn-hover">
                             <p>Book a table</p>
                         </div>
                     </div>
@@ -56,8 +52,5 @@
             </div>
         </div>
     </main>
-    <footer>
-
-    </footer>
 </body>
 </html>
